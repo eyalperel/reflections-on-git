@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+The .git hidden directory is added and thus the files are being tracked. Without it we can't
+really do anything because Git does not know that we want to track the files.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It different in the sense it "marks" the files that are about to be comitted and allow us more control over
+what is going to be comitted since we don't necessarily want all the files in the working directory to be
+comitted in each commit, but just the ones that represent a logical unit.
