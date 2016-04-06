@@ -1,0 +1,37 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It helps pinpoint to the parts that are different thus preventing from scanning the entire document, since it is not needed.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Well, you can move quickly and iterate very fast on your code and thus try and test a larger amount of features, since
+anytime you are not happy with it, you can easily "go back" to the last state of the program where things were working
+properly.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having
+versions automatically saved, like Google Docs does?
+
+The obvious pro is that you construct the commits based on what seems to you logical and it also the big con since
+for others reading your commits it may seem you have used too big or too small commits. I guess it improves with
+experience.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+
+I think because Git was designed for developers and serious projects have multiple interdependent files, and
+thus it is very logical to want to track multiple files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log gives an history of all the committs and diff gives the detailed changes of two commits so I can 
+use them both to isolate the commits that interest me in the history (with log) and examine the detailed
+changes (with diff)
+
+How might using version control make you more confident to make changes that could break something?
+
+Since we can "recreate" any past state discretized by commits we can't break anything because we can 
+always come back to the last commit that worked for us.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+exploring repositories and try to temper with base code of interesting projects
