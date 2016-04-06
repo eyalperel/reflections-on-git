@@ -16,3 +16,8 @@ we can always make sure that all the files that are in the staging area represen
 though some of them have been added at different times, and commit them only when we are satisfied that
 this is the case
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+I guess the best situation for using branches is when we want to introduce some changes we are not sure are going to 
+be part of the main project immediatly. (Like experimenting with a new feature). By usimg branches we can experiment 
+as much we like to without fear of breaking the project.
