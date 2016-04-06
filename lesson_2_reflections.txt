@@ -8,3 +8,11 @@ How is the staging area different from the working directory and the repository?
 It different in the sense it "marks" the files that are about to be comitted and allow us more control over
 what is going to be comitted since we don't necessarily want all the files in the working directory to be
 comitted in each commit, but just the ones that represent a logical unit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Well, since we can decide what goes in the staging area and removing things from it and adding to it,
+we can always make sure that all the files that are in the staging area represent a logical change, even
+though some of them have been added at different times, and commit them only when we are satisfied that
+this is the case
+
