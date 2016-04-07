@@ -25,3 +25,9 @@ as much we like to without fear of breaking the project.
 How do the diagrams help you visualize the branch structure?
 
 Well, it helps see where did things branched out and see the paths like in a tree graph sort
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is we can trace back along the two paths (sorted by time stamps), and the merged branch will contain
+all the changes made along the two branches thus having the effect of combine the two version into one.
+
