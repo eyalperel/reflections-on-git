@@ -21,3 +21,8 @@ What is the benefit of having a copy of the last known state of the remote store
 
 I think the main benefit would be working on the latest version offline (e.g. on a flight) and push it to the remote once an
 internet connection is reestablished.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Well, I would need to store the code base (master) somewhere and manually review and update it as changes come along. I
+really don't see how one collaborate more easily that way :-)
