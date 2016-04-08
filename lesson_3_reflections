@@ -9,3 +9,10 @@ Why might you want to always pull changes manually rather than having Git automa
 For me, the main reason would be similar to the logic of having a staging area. This way, I have control over the changes I would like
 to pull and work on. Also, it seems highly inefficient for a big project with hundreds of contributers to pull automatically each 
 change that was made to the remote by every contributor. It gets out of hand rather quickly.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branches are different paths in a given repository due to different needs, and the master branch is normally
+the offical version. Clones are copies of a repository from github to local of from local to local at two different
+locations on the local machine. forks are basically the same as clones, but they "live" on github, I fork a repository
+on github to another repository, also on github, normally of a different user that would like to work on it (locally or not).
