@@ -16,3 +16,8 @@ Branches are different paths in a given repository due to different needs, and t
 the offical version. Clones are copies of a repository from github to local of from local to local at two different
 locations on the local machine. forks are basically the same as clones, but they "live" on github, I fork a repository
 on github to another repository, also on github, normally of a different user that would like to work on it (locally or not).
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+I think the main benefit would be working on the latest version offline (e.g. on a flight) and push it to the remote once an
+internet connection is reestablished.
